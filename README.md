@@ -9,7 +9,7 @@ this script process the dataset downloaded from
 
 according to the instructions from Getting and Cleaning Data Course Project.
 
-files should not moved after unzipping the zip file, and this script function in the unzipped folder
+files should not moved after unzipping the zip file, and this script work only in the unchanged, unzipped folder of the zip file
 
 ### Step 1: load all data sets in the memory, 
 
