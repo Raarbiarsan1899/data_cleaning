@@ -1,0 +1,146 @@
+Code book for ZF_Submission.txt:
+
+Subjects
+individuals of the experiment
+	"X2"  "X4"  "X9"  "X10" "X12" "X13" "X18" "X20" "X24" "X1"  "X3"  "X5"  "X6"  "X7"  "X8"  "X11" "X14" "X15" 	"X16" "X17" "X19" "X21" "X22" "X23" "X25" "X26" "X27" "X28" "X29" "X30"
+
+Activities
+type of the activities
+	WALKING
+	WALKING_UPSTAIRS
+	WALKING_DOWNSTAIRS
+	SITTING
+	STANDING       
+	LAYING
+
+means of the corresponding variables for each subject and each activity
+
+mean_of_tBodyAcc.mean...X
+mean_of_tBodyAcc.mean...Y
+mean_of_tBodyAcc.mean...Z
+mean_of_tGravityAcc.mean...X
+mean_of_tGravityAcc.mean...Y
+mean_of_tGravityAcc.mean...Z
+mean_of_tBodyAccJerk.mean...X
+mean_of_tBodyAccJerk.mean...Y
+mean_of_tBodyAccJerk.mean...Z
+mean_of_tBodyGyro.mean...X
+mean_of_tBodyGyro.mean...Y
+mean_of_tBodyGyro.mean...Z
+mean_of_tBodyGyroJerk.mean...X
+mean_of_tBodyGyroJerk.mean...Y
+mean_of_tBodyGyroJerk.mean...Z
+mean_of_tBodyAccMag.mean..
+mean_of_tGravityAccMag.mean..
+mean_of_tBodyAccJerkMag.mean..
+mean_of_tBodyGyroMag.mean..
+mean_of_tBodyGyroJerkMag.mean..
+mean_of_fBodyAcc.mean...X
+mean_of_fBodyAcc.mean...Y
+mean_of_fBodyAcc.mean...Z
+mean_of_fBodyAcc.meanFreq...X
+mean_of_fBodyAcc.meanFreq...Y
+mean_of_fBodyAcc.meanFreq...Z
+mean_of_fBodyAccJerk.mean...X
+mean_of_fBodyAccJerk.mean...Y
+mean_of_fBodyAccJerk.mean...Z
+mean_of_fBodyAccJerk.meanFreq...X
+mean_of_fBodyAccJerk.meanFreq...Y
+mean_of_fBodyAccJerk.meanFreq...Z
+mean_of_fBodyGyro.mean...X
+mean_of_fBodyGyro.mean...Y
+mean_of_fBodyGyro.mean...Z
+mean_of_fBodyGyro.meanFreq...X
+mean_of_fBodyGyro.meanFreq...Y
+mean_of_fBodyGyro.meanFreq...Z
+mean_of_fBodyAccMag.mean..
+mean_of_fBodyAccMag.meanFreq..
+mean_of_fBodyBodyAccJerkMag.mean..
+mean_of_fBodyBodyAccJerkMag.meanFreq..
+mean_of_fBodyBodyGyroMag.mean..
+mean_of_fBodyBodyGyroMag.meanFreq..
+mean_of_fBodyBodyGyroJerkMag.mean..
+mean_of_fBodyBodyGyroJerkMag.meanFreq..
+mean_of_tBodyAcc.std...X
+mean_of_tBodyAcc.std...Y
+mean_of_tBodyAcc.std...Z
+mean_of_tGravityAcc.std...X
+mean_of_tGravityAcc.std...Y
+mean_of_tGravityAcc.std...Z
+mean_of_tBodyAccJerk.std...X
+mean_of_tBodyAccJerk.std...Y
+mean_of_tBodyAccJerk.std...Z
+mean_of_tBodyGyro.std...X
+mean_of_tBodyGyro.std...Y
+mean_of_tBodyGyro.std...Z
+mean_of_tBodyGyroJerk.std...X
+mean_of_tBodyGyroJerk.std...Y
+mean_of_tBodyGyroJerk.std...Z
+mean_of_tBodyAccMag.std..
+mean_of_tGravityAccMag.std..
+mean_of_tBodyAccJerkMag.std..
+mean_of_tBodyGyroMag.std..
+mean_of_tBodyGyroJerkMag.std..
+mean_of_fBodyAcc.std...X
+mean_of_fBodyAcc.std...Y
+mean_of_fBodyAcc.std...Z
+mean_of_fBodyAccJerk.std...X
+mean_of_fBodyAccJerk.std...Y
+mean_of_fBodyAccJerk.std...Z
+mean_of_fBodyGyro.std...X
+mean_of_fBodyGyro.std...Y
+mean_of_fBodyGyro.std...Z
+mean_of_fBodyAccMag.std..
+mean_of_fBodyBodyAccJerkMag.std..
+mean_of_fBodyBodyGyroMag.std..
+mean_of_fBodyBodyGyroJerkMag.std..
+
+for more information, see features.txt.
+
+Below are part of the information from features.txt.
+
+
+Feature Selection 
+=================
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
+
+The complete list of variables of each feature vector is available in 'features.txt'
