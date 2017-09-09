@@ -57,3 +57,8 @@ describe the names of the variables in ZF_Submission.txt
 ZF_Submission.txt
 
 the processed clean data set
+
+
+README.md
+
+this file
