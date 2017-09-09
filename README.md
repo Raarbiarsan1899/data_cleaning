@@ -52,3 +52,8 @@ Step 6: save the table into ZF_Submission.txt
 code book.txt:
 
 describe the names of the variables in ZF_Submission.txt
+
+
+ZF_Submission.txt
+
+the processed clean data set
